@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 BLUE = [255,0,0]
-img2 = cv.imread('./images/test1.jpg')
+img2 = cv.imread('./image/11.jfif')
 img1 = cv.cvtColor(img2,cv.COLOR_BGR2RGB)
 
 replicate = cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_REPLICATE)

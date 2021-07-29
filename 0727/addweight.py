@@ -2,7 +2,7 @@
 import cv2 
 
 #開圖
-img1 = cv2.imread('test1.jpg')
+img1 = cv2.imread('./image/11.jfif')
 print(img1.shape)
 roi1 = img1[400:600,300:700]
 roi2 = img1[100:300,800:1200]

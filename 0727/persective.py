@@ -11,7 +11,7 @@ def savexy(event,x,y,flags,param):
         cv2.circle(img,((x,y)), 3, (0, 255, 0) ,3)                     #Color is by default black
         pts1[i]=[x,y]
         i+=1
-img=cv2.imread('008.jpg')
+img=cv2.imread('./image/008.jpg')
 rows,cols,ch=img.shape
 pts2 = np.float32([[0,0],[400,0],[400,200],[0,200]])
 cv2.namedWindow('image')

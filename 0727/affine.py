@@ -8,7 +8,7 @@ def bgr2rbg(img):
     return img[:,:,::-1]
 
 #開圖
-img = cv2.imread('5t5.jfif')
+img = cv2.imread('./image/11.jfif')
 cv2.namedWindow('img1')
 img1 = cv2.resize(img,None,fx=1/2,fy=1/2,interpolation=cv2.INTER_CUBIC)
 img2 = img1[:,::-1] 
