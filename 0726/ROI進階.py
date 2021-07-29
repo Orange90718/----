@@ -1,7 +1,8 @@
+  
 import cv2
 
 #開圖
-img1 = cv2.imread('test1.jpg')
+img1 = cv2.imread('./image/11.jfif')
 
 print(img1.shape)
 print(img1[100,200])
