@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
-img = cv.imread('test1.jpg')
+img = cv.imread('./image/11.jfif')
 color = ('b','g','r')
 for i,col in enumerate(color):
     histr = cv.calcHist([img],[i],None,[256],[0,256])
